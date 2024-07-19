@@ -1,11 +1,12 @@
 <script setup>
-
+import GiftComp from './components/GiftComp.vue';
 </script>
 
 <template>
   <h1>
     Problema de Monty Hall
   </h1>
+  <GiftComp />
 </template>
 
 <style>

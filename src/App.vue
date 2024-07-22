@@ -1,12 +1,12 @@
 <script setup>
-import GiftComp from './components/GiftComp.vue';
+import DoorComp from './components/DoorComp.vue';
 </script>
 
 <template>
   <h1>
     Problema de Monty Hall
   </h1>
-  <GiftComp />
+  <DoorComp number="1" :has-gift="false" />
 </template>
 
 <style>

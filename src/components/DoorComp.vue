@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import GiftComp from './GiftComp.vue';
 
 defineProps({
-  number: Object,
+  number: Number,
   hasGift: Boolean,
 });
 
